@@ -1,0 +1,76 @@
+body {
+    background-color:#E9EFE7;
+    font-family: "Poppins", sans-serif; 
+    display: flex;
+    margin: 50px 50px 0 50px;
+    display: block;
+}
+#logo {
+    width: 300px;
+}
+#top{
+    background-color: beige;
+    width: 100%;
+}
+h1 { 
+    font-size: 5rem;
+}
+span {
+    color: purple;
+}
+.beach {
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+
+}
+.box {
+    display: inline;
+    margin-left: 200px;
+}
+.rap2{
+    clear: left;
+    }
+      
+.rap{
+    display: inline;
+    margin-right: 200px;
+}
+.church{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+@media (max-width:900px) {
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.beach{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 0px;
+}
+.box{
+    display: inline;
+}
+.church {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    clear: both;
+}
+#logo{
+    width: 200px;
+}
+
+}
+
+
